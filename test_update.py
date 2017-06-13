@@ -2,6 +2,7 @@ import itertools
 import pytest
 import main
 
+
 def test_update():
     config = {
         'ginger': {
