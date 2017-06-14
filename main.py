@@ -24,6 +24,7 @@ def main():
         },
     }
 
+    # Interactive mode start
     print("Hello Evo! Welcome to program.")
     print("Configuration before:")
     pprint(example_data)
@@ -56,7 +57,7 @@ def main():
     print("Configuration after:")
     pprint(example_data)
     print("That`s it. Let`s go to another task ;)")
-
+    # Interactive mode end
 
 if __name__ == '__main__':
     main()
